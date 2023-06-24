@@ -2,10 +2,13 @@
 このディレクトリは、webpack, react, babelを用いて、Reactの環境構築を行う最小限のプロジェクトです
 
 # 使用方況
-1. `git clone`、もしくはzipでダウンロードして展開を行います
-2. `npm install`で、node_modules/を復元します。
-3. `npm run build`で、src配下のソースをがっちゃんこ＆トランスパイルを行う
-4. index.htmlを開く
+1. 以下のコマンドを利用して、このディレクトリを取得します
+   ```bat
+   git svn clone https://github.com/Unico417/practice/trunk/React_practice && rmdir /s /q .\\React_practice\\.git
+   ```
+3. `npm install`で、node_modules/を復元します
+4. `npm run build`で、src配下のソースをがっちゃんこ＆トランスパイルを行います
+5. index.htmlを開きます
 
 # webpackのエントリーポイント・出力先
 webpack.config.jsに定義されており、変更可能です
