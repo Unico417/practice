@@ -11,5 +11,5 @@
 webpack.config.jsに定義されており、変更可能です
 
 # 参考
-- Zenn「webpackでJS,React×JS,React×TSの開発環境を1から構築してみた」
+- Zenn「webpackでJS,React×JS,React×TSの開発環境を1から構築してみた」  
     https://zenn.dev/spacemarket/articles/23e5401a074ccc
